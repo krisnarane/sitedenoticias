@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', sans-serif;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    /* padding: 50px; */
+}
+
+
+body {
+    background-color: #051525;
+}
+
+
+h1 {
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Archivo";
+    margin-right: 700px;
+    margin-left: 40px;
+    /* font-variation-settings: "wdth" 100; */
+    padding-top: 20px;
+    position: relative;
+    top: 10px;
+}
+
+
+header {
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.372);
+    background-color: rgb(0, 0, 0);
+}
+
+
+header a {
+    color: #ffffff;
+}
+
+
+.barra {
+    width: 100vw;
+    height: 1px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.barra a {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    position: relative;
+    top: -45px;
+    padding: 10px;
+    font-weight: 400;
+    font-family: "Fjalla One";
+    text-decoration: none;
+}
+
+
+.barra a:hover {
+    color: #3292B4
+}
+
+
+.titulo img {
+    width: 140px;
+    height: 140px;
+    margin-left: 520px;
+    margin-top: -100px;
+}
+
+
+.redes {
+    gap: 10px;
+    position: relative;
+    top: -20px;
+    right: -300px;
+}
+
+
+.redes img {
+    width: 30px;
+}
+
+.homenoticias a {
+    color: #ffffff;
+    position: relative;
+    left: 60px;
+    top: 30px;
+    font-size: 20px;
+    font-family: "Bebas Neue";
+}
+
+.homenoticias a:hover{
+    text-decoration: underline;
+
+}
+.titulonoti h2 {
+    position: relative;
+    top: 70px;
+    font-size: 60px;
+    font-weight:lighter;
+    left: 70px;
+    font-family: "Bebas Neue";
+} 
+
+.intro h3 {
+    position: relative;
+    top: 95px;
+    left: 120px;
+    font-size: 20px;
+    font-family: "jost";
+
+}
+
+.intro p {
+    position: relative;
+    top: 100px;
+    left: 120px;
+    font-size: 15px;
+    width: 1000px;
+    text-transform: initial;
+    font-family: "jost";
+}
+
+.hist h3 {
+    position: relative;
+    top: 110px;
+    left: 120px;
+    font-size: 20px;
+    font-family: "jost";
+
+}
+
+.hist p {
+    position: relative;
+    top: 120px;
+    left: 120px;
+    font-size: 15px;
+    width: 1000px;
+    text-transform: initial;
+    font-family: "jost";
+}
+
+.proj h3 {
+    position: relative;
+    top: 133px;
+    left: 120px;
+    font-size: 20px;
+    font-family: "jost";
+
+}
+
+.proj p {
+    position: relative;
+    top: 140px;
+    left: 120px;
+    font-size: 15px;
+    width: 1000px;
+    text-transform: initial;
+    font-family: "jost";
+}
+
+.proj ul {
+    position: relative;
+    top: 150px;
+    left: 120px;
+    font-size: 15px;
+    width: 1000px;
+    font-family: "jost";
+}
+
+.proj li {
+    font-family: "jost";
+}
+
+.destaque h3 {
+    position: relative;
+    top: 160px;
+    left: 120px;
+    font-size: 20px;
+    font-family: "jost";
+
+}
+
+.destaque p {
+    position: relative;
+    top: 170px;
+    left: 120px;
+    font-size: 15px;
+    width: 1000px;
+    text-transform: initial;
+    font-family: "jost";
+}
+
+
+.missão h3 {
+    position: relative;
+    top: 180px;
+    left: 120px;
+    font-size: 20px;
+    font-family: "jost";
+
+}
+
+.missão p {
+    position: relative;
+    top: 190px;
+    left: 120px;
+    font-size: 15px;
+    width: 1000px;
+    text-transform: initial;
+    font-family: "jost";
+}
+
+
+/* //////footer/////// */
+
+footer {
+    width: 100vw;
+    padding: 50px 0;
+    background-color: #051525 
+    background-size: cover;
+    position: relative;
+    bottom: -250px;
+    left: -10px;
+
+}
+
+.container__footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    max-height: 250px;
+    margin: auto;
+}
+
+.box__footer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 15px;
+}
+
+.box__footer .logo img {
+    width: 230px;
+    position: relative;
+    top: -80px;
+    left: 20px;
+}
+
+.box__footer .terms {
+    max-width: 350px;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    position: relative;
+    top: -70px;
+}
+
+.terms p {
+    text-transform: initial;
+}
+
+.box__footer h2 {
+    margin-bottom: 30px;
+    color: #cac8c8;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    font-size: 40px;
+}
+
+.box__footer a {
+    margin-top: 10px;
+    color: #cdcdcd font-size: 15px;
+    font-weight: 600;
+}
+
+.box__footer a:hover {
+    opacity: 0.8;
+}
+
+.box__footer a .fab {
+    font-size: 20px;
+}
+
+.box__copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p {
+    position: relative;
+    top: 90px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.box__copyright hr {
+    border: none;
+    height: 1px;
+    background-color: #fcfcfc;
+    position: relative;
+    top: 70px;
+}
+
+.terms p {
+    color: #cdcdcd;
+    font-weight: 600;
+    position: relative;
+    left: 15px;
+}
+
+.nada2 {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 110px;
+    position: relative;
+    top: -35px;
+}
+
+.nada2 {
+    position: relative;
+    left: -50px;
+}
